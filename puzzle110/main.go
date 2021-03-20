@@ -5,6 +5,8 @@ package main
 // 2.golang的面向对象表达更直观，对于面向过程只是换了一种语法形式来表达
 // 3.方法施加的对象不需要非得是指针，也不用非得叫this
 
+// Java有this.xxx
+
 func main() {
-	
+
 }

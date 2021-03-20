@@ -30,3 +30,17 @@ func defer_call() {
 //打印中
 //打印前
 //panic: 触发异常
+
+//C:\Users\Administrator\AppData\Local\Temp\___go_build_main_go.exe #gosetup
+//打印后
+//打印中
+//打印前
+//panic: 触发异常
+//
+//goroutine 1 [running]:
+//main.defer_call()
+//        D:/dev/interview/puzzle4go_season2/puzzle141/main.go:20 +0x85
+//main.main()
+//        D:/dev/interview/puzzle4go_season2/puzzle141/main.go:8 +0x27
+//
+//Process finished with exit code 2

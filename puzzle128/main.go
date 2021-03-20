@@ -5,6 +5,7 @@ import "sync"
 //实现set
 
 type inter interface{}
+
 type Set struct {
 	m map[inter]bool
 	sync.RWMutex
@@ -15,6 +16,7 @@ func New() *Set {
 		m: map[inter]bool{},
 	}
 }
+
 func (s *Set) Add(item inter) {
 	s.Lock()
 	defer s.Unlock()
@@ -22,5 +24,5 @@ func (s *Set) Add(item inter) {
 }
 
 func main() {
-	
+
 }
